@@ -25,6 +25,7 @@ menu_selection = st.selectbox("Menu", (["Homepage", "Histogram", "Geo Plot", "Re
 if menu_selection == 'Homepage':
     
     st.markdown("<h3> Hello, Welcome to my data analysis dashboard<h3>", unsafe_allow_html= True)
+    st.dataframe(df)
     
 
 elif menu_selection == 'Histogram':
