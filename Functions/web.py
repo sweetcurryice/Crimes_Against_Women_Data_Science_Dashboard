@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import numpy as np
 import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import plotly.figure_factory as ff
 import json
 
 df = pd.read_csv("../Datasets/factors_of_women.csv")
