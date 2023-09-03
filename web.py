@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import json
 
-df = pd.read_csv(r"../Functions/factors_of_women.csv")
+df = pd.read_csv("factors_of_women.csv")
 st.set_page_config(layout="wide", page_icon="penguin", page_title="Crimes Against Women")
 #st.dataframe(df)
 st.markdown(
