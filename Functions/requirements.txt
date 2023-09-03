@@ -63,7 +63,7 @@ PySimpleGUI==4.60.4
 python-dateutil==2.8.2
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==306
+pywin32==305
 pywin32-ctypes==0.2.2
 pyzmq==25.1.0
 requests==2.31.0
