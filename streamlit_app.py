@@ -27,13 +27,13 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
     styles={
         "container": \
             {"padding": "0vw!important",
-             "background-color": "#333333",
+             "background-color": "#e1e4e6",
              "align-items": "center",
              "justify-content": "center",
              "height": "auto",
              "width" : "100vw",
              "border-radius":"1vw",
-             "border":"0.2vw solid #2d2e2d"},\
+             "border":"0.2vw solid #e1e4e6"},\
             
         "icon": \
             {"color": "#a9a9ab",
@@ -51,7 +51,7 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
              "margin-right" : "2em",
              "margin-left" : "1em",
              "color":"#818182",
-             "box-shadow": "5px 10px 17px #1a1a1a, -0.1px -0.1px 14px #777778",
+             "box-shadow": "12px 12px 16px #777778, -8px -8px 12px #ffffff ",
              #"box-shadow": " 0 0 30px #595959", 
              #"box-shadow": " 20px 20px 50px #00d2c6, -30px -30px 60px #5e99ff"(only in dark theme this looks good)
              "border-radius":"1vw",
@@ -60,10 +60,10 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
              "font-weight":"650"},\
             
         "nav-link-selected": \
-            {"background-color": "#3d3d3d",
+            {"background-color": "#e1e4e6",
              "font-size" : "1.3vw",
              "font-weight":"600",
-             "box-shadow": "5px 10px 17px #1a1a1a inset, 0px 0px 12px #777778 inset",
+             "box-shadow": "2px 2px 5px #777778 inset, -3px -3px 5px #ffffff inset, 12px 12px 16px #777778, -8px -8px 12px #ffffff ",
              "color":"#585859",
             
              #"text-shadow": "0px 0px 1px #000000"
