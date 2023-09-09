@@ -482,7 +482,7 @@ elif selected2 == "PREDICTION" :
         
         selected_state = st.sidebar.selectbox("Select year", df["STATES"].unique())
         pre_df = df[df["STATES"]==selected_state][["YEAR","Total Crimes Against Women"]]
-        st.expander(label="Note:", expanded=True).write("* There are outliers in the individual state charts so you have to select a year range for training which excludes the outliers.")
+        st.expander(label="Note:", expanded=True).write("* There are outliers in the individual state charts so you have to select a year range for training which excludes the outliers.\n")
     
     
     st.title("Prediction of Crime Against Women For The Coming Years")
@@ -590,8 +590,13 @@ elif selected2 == "PREDICTION" :
         res = '{:,}'.format(values)
         return res
         
+    st.markdown(f"<h3 style='text-align: center;'> Crime cases for the coming years are as follows :</h3><br><br>", unsafe_allow_html=True)
     
-    st.markdown(f"<h3>Conclusion :</h3><h3> Crime cases for the coming years are as follows :<br> <br><li>Cases in 2022 : {prd_value(2022)} </li><br><li>Cases in 2023 : {prd_value(2023)} </li><br><li>Cases in 2024 : {prd_value(2024)} </li><br><li>Cases in 2025 : {prd_value(2025)} </li><br><li>Cases in 2026 : {prd_value(2026)} </li></h3>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns(3)
+    col1.markdown(f"<h5 style='text-align: left;'>Cases in 2024 :</h5><h2 style='text-align: left; color: red;color: red;'>{prd_value(2024)}</h2>", unsafe_allow_html=True)
+    
+    col2.markdown(f" <h5 style='text-align: center;'>Cases in 2025 :</h5> <h2 style='text-align: center; color: red;'>{prd_value(2025)}</h2>", unsafe_allow_html=True)
+    col3.markdown(f"<h5 style='text-align: right;'>Cases in 2026 :</h5><h2 style='text-align: right; color: red;'>{prd_value(2026)}</h2> ", unsafe_allow_html=True)
     
 
     ######################################################################
