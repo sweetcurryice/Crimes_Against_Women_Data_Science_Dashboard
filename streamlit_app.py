@@ -51,7 +51,7 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
              "margin-right" : "2em",
              "margin-left" : "1em",
              "color":"#818182",
-             "box-shadow": "12px 12px 16px #777778, -8px -8px 12px #ffffff ",
+             "box-shadow": "12px 12px 10px #777778, -8px -8px 12px #ffffff ",
              #"box-shadow": " 0 0 30px #595959", 
              #"box-shadow": " 20px 20px 50px #00d2c6, -30px -30px 60px #5e99ff"(only in dark theme this looks good)
              "border-radius":"1vw",
