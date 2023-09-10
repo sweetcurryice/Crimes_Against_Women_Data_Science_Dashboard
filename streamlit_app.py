@@ -149,10 +149,10 @@ elif selected2 == 'CHARTS':
     if radio_options == "None" and len(selected_states) == 0:
         st.header("Tips :")
         st.markdown('<p> 1. This is the Analysis of crime cases across different states for all 10 years.<br>\
-        1. You can select the zones you want to display using the radio buttons on the left.<br> \
-        2. To manually choose the states, you may use the selection tool "Select States" under the radio buttons. Thru this you can chose either single or multiple states.<br> \
-        3. When viewing the bar chart, you may click and drag over the desired segment to display a much smaller segment of the entire data. <br> \
-        4. To know which contry the bar represents, simply hover over it. <br> 5. Take your time and go through all the zones and states and compare it with each other states for a better unserstanding.', unsafe_allow_html= True)
+        2. You can select the zones you want to display using the radio buttons on the left.<br> \
+        3. To manually choose the states, you may use the selection tool "Select States" under the radio buttons. Thru this you can chose either single or multiple states.<br> \
+        4. When viewing the bar chart, you may click and drag over the desired segment to display a much smaller segment of the entire data. <br> \
+        5. To know which contry the bar represents, simply hover over it. <br> 6. Take your time and go through all the zones and states and compare it with each other states for a better unserstanding.', unsafe_allow_html= True)
     else :
         st.title("Interactive Histogram of Total Crimes Against Women by Year")
         
