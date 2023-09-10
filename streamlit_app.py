@@ -27,7 +27,7 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
     styles={
         "container": \
             {"padding": "0vw!important",
-             "background-color": "#e1e4e6",
+             "background-color": "#dee1e3",
              "align-items": "center",
              "justify-content": "center",
              "height": "auto",
@@ -36,7 +36,7 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
              "border":"0.2vw solid #e1e4e6"},\
             
         "icon": \
-            {"color": "#a9a9ab",
+            {"color": "#8c8c8c",
              "font-size": "1.3vw"},\
              
         "nav-link": \
@@ -51,7 +51,7 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
              "margin-right" : "2em",
              "margin-left" : "1em",
              "color":"#818182",
-             "box-shadow": "12px 12px 10px #777778, -8px -8px 12px #ffffff ",
+             "box-shadow": "8px 4px 8px #777778, -8px -6px 12px #ffffff ",
              #"box-shadow": " 0 0 30px #595959", 
              #"box-shadow": " 20px 20px 50px #00d2c6, -30px -30px 60px #5e99ff"(only in dark theme this looks good)
              "border-radius":"1vw",
@@ -79,18 +79,18 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
 if selected2 == 'HOME':
     col1, col2 = st.columns([3,1])
     col1.markdown("<h1 style = 'color : #6f6f70;'>Crime Against Females in India: Data Analysis Dashboard</h1>\
-    <p style = 'color : #a9a9ab;'>Welcome to this data analysis project, exploring the critical issue of crime against females in India. This project delves into a comprehensive examination of crime statistics spanning a decade, from 2011 to 2021, across all 28 States and 8 Union Territories of India.</p>\
-    <h4 style = 'color : #a9a9ab;'><u>Understanding the Issue:</u></h4>\
-    <p style = 'color : #a9a9ab;'>Crime against females is a pressing concern in our society, and this project aims to shed light on the trends, patterns, and underlying factors behind these incidents. By harnessing the power of data analysis, we seek to not only visualize the data but also provide valuable insights to raise awareness and inform potential solutions.</p>\
-    <h4 style = 'color : #a9a9ab;'><u>Motive :</u></h4>\
-    <p style = 'color : #a9a9ab;'>The main motive behind this project is to leverage data to empower informed decisions and foster a safer environment for females across India. By providing a user-friendly interface and rich visualizations, I aim to bridge the gap between data and public awareness.</p>\
-    <h4 style = 'color : #a9a9ab;'><u>Key Features Of this Analysis:</u></h4>\
-    <p style = 'color : #a9a9ab;'>1. In-Depth Analysis: Dive into the numbers and uncover meaningful patterns, such as regional variations and changes over the years.</p>\
-    <p style = 'color : #a9a9ab;'>2. Interactive Visualizations: Engage with interactive plots created using Plotly to grasp the information intuitively</p> <p style = 'color : #a9a9ab;'>3. Data-Driven Insights: Discover key takeaways and actionable insights to address this societal issue.</p>\
-    <h4 style = 'color : #a9a9ab;'>Data source:</h4>\
-    <p style = 'color : #a9a9ab;'>The dataset for this project on female crime statistics in India (2011-2021) was sourced from Kaggle and National Crime Records Bureau, the Kaggle dataset was contributed by <a href = 'https://www.kaggle.com/datasets/sailajamahapatro/crimes-against-women-from-2011-2021-in-india'>Sailaja Mahpatro</a>. The NCRB data was mostly used to check kaggle dataset's credibility, and to add additional data. </p>", unsafe_allow_html= True)
+    <p style = 'color : #8c8c8c;'>Welcome to this data analysis project, exploring the critical issue of crime against females in India. This project delves into a comprehensive examination of crime statistics spanning a decade, from 2011 to 2021, across all 28 States and 8 Union Territories of India.</p>\
+    <h4 style = 'color : #8c8c8c;'><u>Understanding the Issue:</u></h4>\
+    <p style = 'color : #8c8c8c;'>Crime against females is a pressing concern in our society, and this project aims to shed light on the trends, patterns, and underlying factors behind these incidents. By harnessing the power of data analysis, we seek to not only visualize the data but also provide valuable insights to raise awareness and inform potential solutions.</p>\
+    <h4 style = 'color : #8c8c8c;'><u>Motive :</u></h4>\
+    <p style = 'color : #8c8c8c;'>The main motive behind this project is to leverage data to empower informed decisions and foster a safer environment for females across India. By providing a user-friendly interface and rich visualizations, I aim to bridge the gap between data and public awareness.</p>\
+    <h4 style = 'color : #8c8c8c;'><u>Key Features Of this Analysis:</u></h4>\
+    <p style = 'color : #8c8c8c;'>1. In-Depth Analysis: Dive into the numbers and uncover meaningful patterns, such as regional variations and changes over the years.</p>\
+    <p style = 'color : #8c8c8c;'>2. Interactive Visualizations: Engage with interactive plots created using Plotly to grasp the information intuitively</p> <p style = 'color : #8c8c8c;'>3. Data-Driven Insights: Discover key takeaways and actionable insights to address this societal issue.</p>\
+    <h4 style = 'color : #8c8c8c;'>Data source:</h4>\
+    <p style = 'color : #8c8c8c;'>The dataset for this project on female crime statistics in India (2011-2021) was sourced from Kaggle and National Crime Records Bureau, the Kaggle dataset was contributed by <a href = 'https://www.kaggle.com/datasets/sailajamahapatro/crimes-against-women-from-2011-2021-in-india'>Sailaja Mahpatro</a>. The NCRB data was mostly used to check kaggle dataset's credibility, and to add additional data. </p>", unsafe_allow_html= True)
     
-    col2.markdown("<h1> Streamlit App By <a href = 'https://www.linkedin.com/in/shivam-sai-kiran/'>Sai Kiran</a></h1>", unsafe_allow_html= True)
+    col2.markdown("<h1 style = 'color : #6f6f70'> Streamlit App By <a href = 'https://www.linkedin.com/in/shivam-sai-kiran/'>Sai Kiran</a></h1>", unsafe_allow_html= True)
 
     col2.expander(label="You can click here to have a look at the raw data first :point_down:").dataframe(df)
     
@@ -109,14 +109,7 @@ elif selected2 == 'CHARTS':
     message = ""
     
     if radio_options == "All States  &  UT" :
-        unique_states = ['Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar',
-        'Chhattisgarh', 'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh',
-        'Jammu & Kashmir', 'Jharkhand', 'Karnataka', 'Kerala',
-        'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Punjab', 'Rajasthan', 'Sikkim',
-        'Tamil Nadu', 'Telangana', 'Tripura', 'Uttar Pradesh',
-        'Uttarakhand', 'West Bengal', 'A & N Islands', 'Chandigarh',
-        'D&N Haveli', 'Daman & Diu', 'Delhi UT', 'Lakshadweep',
-        'Puducherry', 'Ladakh']
+        unique_states = df["STATES"].unique()
         
         
         
@@ -155,7 +148,8 @@ elif selected2 == 'CHARTS':
 
     if radio_options == "None" and len(selected_states) == 0:
         st.header("Tips :")
-        st.markdown('<p> 1. You can select the zones you want to display using the radio buttons on the left.<br> \
+        st.markdown('<p> 1. This is the Analysis of crime cases across different states for all 10 years.<br>\
+        1. You can select the zones you want to display using the radio buttons on the left.<br> \
         2. To manually choose the states, you may use the selection tool "Select States" under the radio buttons. Thru this you can chose either single or multiple states.<br> \
         3. When viewing the bar chart, you may click and drag over the desired segment to display a much smaller segment of the entire data. <br> \
         4. To know which contry the bar represents, simply hover over it. <br> 5. Take your time and go through all the zones and states and compare it with each other states for a better unserstanding.', unsafe_allow_html= True)
@@ -238,7 +232,8 @@ elif selected2 == 'CHARTS':
             col1.plotly_chart(line2)
             with col2:
                 with st.expander(label="Explaination", expanded = True):
-                    st.write("From 2011 - 2021 the crime rates have gradually gone up, In 2011 the total crime against Females were 228k and by the end of 2021 the cases have rose up to 428k, That is almost double the cases since 2011")
+                    st.write("* From 2011 - 2021 the crime rates have gradually gone up, In 2011 the total crime against Females were 228k and by the end of 2021 the cases have rose up to 428k, That is almost double the cases since 2011\
+                    \n * We have something interesting to see here, have a look at the year 2020, the cases here have dorpped 8.5% compared to the past year, and this kinda drop has not been witnessed elsewhere in this chart, the reason behind this drastic drop was because of the Tragic COVID-19 Pandemic, Lockdown had caused cases to drop, though the drop in just particular type of crimes are unseen, implying that all of the types of crime were decreased somewhat equally (Check out the Reasons page for better insight) \n * Well, soon after the Lockdown ended the cases have seem to be skyrocketed.")
             col3, col4 = st.columns([5,2])   
             col3.plotly_chart(bar_desc)
             with col4:
@@ -281,7 +276,7 @@ elif selected2 == "CHOROPLETH" :
         "Crimes Against Women : " + df['Total Crimes Against Women'].astype(str)
     
     
-    st.title("Crime Against Women Intensity Map")
+    st.title("Crime Against Women Density Map")
     
 
         
@@ -324,11 +319,12 @@ elif selected2 =="REASONS":
     if reason_radio == "None":
         
         st.header("Tips :")
-        st.markdown('<p> 1. The Analysis on the "Reasons" are 100% genuine and the data has been cross verfied by using the official data from National Crime Records Bureau (govt agency).<br> \
+        st.markdown('<p> 1. This section will take you through the types of crime and will help you get a better understanding one the spread of these crime types across all the States & UTs.\
         <br>2. There are 2 sections, All Years and Individual Years, and their contents are as follows :\
         <li> The "All Years" section will allow you to see the analytical visuals for the combined 10 year dataframe.</li>\
         <li> The "Individual Years" section will allow you to select individual years form 2011 to 2021 and display their charts.</li><br>\
-        3. Take your time and go through all the provided selections to get the most of this Project.<br><br>', unsafe_allow_html= True)
+        3. The Analysis on the "Reasons" are 100% genuine and the data has been cross verfied by using the official data from National Crime Records Bureau (govt agency).<br> \
+        4. Take your time and go through all the provided selections to get the most of this Project.<br><br>', unsafe_allow_html= True)
         
         st.info("Use the radio buttons to display the analysis of reasons across states and years.")
     
@@ -379,15 +375,44 @@ elif selected2 =="REASONS":
         with col2:
                 with st.expander(label="Explaination", expanded = True):
                     st.write("\n * This is a SunBurst chart, it displays all the states & UTs with its corresponding crime types and its percentage \n * If you wish to see the spread of crime type according to their precentages, simply click on the state/UT. \n * The total values and percentages displayed is the concatination of the data from year 2011 to 2021. \n * Hope you don't get overwhelmed by the sunburst chart.  ")
+                    
+        ############ for the line chart
+        
+        
+        st.expander(label="*Note*:").write("* The Line chart below is prepared to give you a clear insight on the Crime Types and it's analytics, Spend your time as you uncover the drop and rise of these crime types for each year on different states", expanded = True)
+              
+        selected_states2 = st.selectbox("Select the State/UT", options = df["STATES"].unique())
+        
+        df_melted = pd.melt(df, id_vars=['STATES',"YEAR"], value_vars=["RAPE","KIDNAP & ABDUCTION","DOWRY DEATHS","CRUETLY BY HUSBAND OR HIS RELATIVES","HUMAN TRAFFICKING","ASSAULT ON MODESTY","SEXUAL HARRASSMENT","OTHERS"], var_name='CRIME_TYPE', value_name='VALUE')
+        
+        
+        crime_types = ["CRUETLY BY HUSBAND OR HIS RELATIVES"]
+        types_check = st.checkbox("Select all Types")
+        
+        if types_check == True:
+            crime_types = ["RAPE","KIDNAP & ABDUCTION","DOWRY DEATHS","CRUETLY BY HUSBAND OR HIS RELATIVES","HUMAN TRAFFICKING","ASSAULT ON MODESTY","SEXUAL HARRASSMENT","OTHERS"]   
+        
+        selected_type = st.multiselect('Select crime types, you can select multiples.',["RAPE","KIDNAP & ABDUCTION","DOWRY DEATHS","CRUETLY BY HUSBAND OR HIS RELATIVES","HUMAN TRAFFICKING","ASSAULT ON MODESTY","SEXUAL HARRASSMENT","OTHERS"], crime_types)
+        
+        filtered_data = df_melted[df_melted["CRIME_TYPE"].isin(selected_type)]
+        state_df = filtered_data[filtered_data["STATES"]== selected_states2]
+    
+        line = px.line(
+            state_df,
+            title='Line chart For Individual States And Crime Types :',
+            x = "YEAR",
+            y = "VALUE",
+            color = "CRIME_TYPE",
+            width= 1200,
+            height = 500,
+            render_mode="svg",
+            line_shape="linear"
             
-        bar_desc = px.bar(
-            desc_crime,
-            x = 'VALUE', 
-            y= 'CRIME TYPE',
-            height= 500,
-            width= 700,
-            orientation='h')
-        bar_desc.update_layout(yaxis={'categoryorder':'total ascending'})
+        )
+        st.plotly_chart(line)
+        
+    ########################################################    
+            
         
         with st.expander(label= "Pie Chart", expanded= True):
             pie = px.pie(
@@ -401,6 +426,15 @@ elif selected2 =="REASONS":
             col1.plotly_chart(pie) 
             col2.write("\n * As you can see the highest cases on crimes against Females in these 10 years are registered under Domestic violence\n * Domestic violence alone contributes 37% to the entire cases. \n * Human trafficking has the lowest percentage of 0.15% which is 250x lower than Domestic violence. \n * The total values and percentages displayed is the concatination of the data from year 2011 to 2021  ")
                           
+        bar_desc = px.bar(
+            desc_crime,
+            title='Descending Bar Chart :',
+            x = 'VALUE', 
+            y= 'CRIME TYPE',
+            height= 500,
+            width= 700,
+            orientation='h')
+        bar_desc.update_layout(yaxis={'categoryorder':'total ascending'})
         
         col3, col4 = st.columns([4,2])
         
@@ -409,11 +443,15 @@ elif selected2 =="REASONS":
         with col4:
             with st.expander(label="Explaination", expanded = True):
                 st.write("\n * This Descending Bar chart represents the highest to lowest crime types, the highest being on top and the subsequent lower ones under it \n * The total values and percentages displayed is the concanitation of the data from year 2011 to 2021.")
+                
+                
+        
+        
             
         
     if reason_radio == "Individual Year Charts":
         
-        st.expander(label= "Notes", expanded= True).write("* The Bar graph displays only the maximum occured crime type for that particular state. \n * The pie chart uses the consolidated total crime cases for each type of crime for that year.\n \n_")
+        st.expander(label= "*Note*", expanded= True).write("* The Bar graph displays only the maximum occured crime type for that particular state. \n * The pie chart uses the consolidated total crime cases for each type of crime for that year.\n \n_")
         selected_year2 = st.sidebar.selectbox("Select year", df["YEAR"].unique())
         
         filter_df = df[df["YEAR"] == selected_year2] #filtered_data = filter_df
@@ -548,7 +586,7 @@ elif selected2 == "PREDICTION" :
                 x = p_data,          #x=predicted_data["Year"],
                 y = p_data2,         #y=predicted_data['PredictedCrimeRate'],
                 mode='lines',
-                name='Best Fit for the entire dataset',
+                name='Best Line Of Fit For The Entire Dataset',
                 line=dict(color='red'),
             )).update_traces(line = {'width' : 4})
 
@@ -557,7 +595,7 @@ elif selected2 == "PREDICTION" :
             x = p2_data,            #x=predicted_data2["Year"],
             y = p2_data2,           #y=predicted_data2['PredictedCrimeRate'],
             mode='lines',
-            name='Best fit for the custom years data',
+            name='Best Line Of Fit For The Custom Years Data',
             line=dict(color='green')
         )).update_traces(line = {'width' : 4})
         
