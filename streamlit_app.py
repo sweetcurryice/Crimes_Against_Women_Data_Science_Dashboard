@@ -78,10 +78,10 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
 
 if selected2 == 'HOME':
     col1, col2 = st.columns([3,1])
-    col1.markdown("<h1 style = 'color : #6f6f70;'>Crime Against Females in India: Data Analysis Dashboard</h1>\
-    <p style = 'color : #8c8c8c;'>Welcome to this data analysis project, exploring the critical issue of crime against females in India. This project delves into a comprehensive examination of crime statistics spanning a decade, from 2011 to 2021, across all 28 States and 8 Union Territories of India.</p>\
+    col1.markdown("<h1 style = 'color : #6f6f70;'>Crimes Against Women in India: Data Analysis Dashboard</h1>\
+    <p style = 'color : #8c8c8c;'>Welcome to this data analysis project, exploring the critical issue of crimes against Women in India. This project delves into a comprehensive examination of crime statistics spanning a decade, from 2011 to 2021, across all 28 States and 8 Union Territories of India.</p>\
     <h4 style = 'color : #8c8c8c;'><u>Understanding the Issue:</u></h4>\
-    <p style = 'color : #8c8c8c;'>Crime against females is a pressing concern in our society, and this project aims to shed light on the trends, patterns, and underlying factors behind these incidents. By harnessing the power of data analysis, we seek to not only visualize the data but also provide valuable insights to raise awareness and inform potential solutions.</p>\
+    <p style = 'color : #8c8c8c;'>Crimes against Women is a pressing concern in our society, and this project aims to shed light on the trends, patterns, and underlying factors behind these incidents. By harnessing the power of data analysis, we seek to not only visualize the data but also provide valuable insights to raise awareness and inform potential solutions.</p>\
     <h4 style = 'color : #8c8c8c;'><u>Motive :</u></h4>\
     <p style = 'color : #8c8c8c;'>The main motive behind this project is to leverage data to empower informed decisions and foster a safer environment for females across India. By providing a user-friendly interface and rich visualizations, I aim to bridge the gap between data and public awareness.</p>\
     <h4 style = 'color : #8c8c8c;'><u>Key Features Of this Analysis:</u></h4>\
@@ -116,7 +116,7 @@ elif selected2 == 'CHARTS':
     if radio_options == "North India":
         unique_states = ['Jammu & Kashmir', 'Ladakh', 'Himachal Pradesh', 'Punjab', 'Chandigarh', 'Uttarakhand', 'Haryana', 'Delhi UT', 'Uttar Pradesh']
         
-        message = "<h5> Key Takeaways <h5>"+"<p>1. Ladakh was oringnally a Part of Jammu and Kashmir, and it was not until recently (Oct 2019), Ladakh was declared as an official Union Territory. This is the reason why there appears to be no cases of crime against Women until 2020." + "<br><br>" + "2. The reasons why cases in Union Territories are substancially lower compared to different states is because of the population which ranges from 60k to 1M across the Union Territories which when compared to states like Andhra Pradesh or Karnataka, is nearly 1000X lower, resulting in a much lower crime rate. "
+        message = "<h5> Key Takeaways <h5>"+"<p>1. Ladakh was oringnally a Part of Jammu and Kashmir, and it was not until recently (Oct 2019), Ladakh was declared as an official Union Territory. This is the reason why there appears to be no cases of crimes against Women until 2020." + "<br><br>" + "2. The reasons why cases in Union Territories are substancially lower compared to different states is because of the population which ranges from 60k to 1M across the Union Territories which when compared to states like Andhra Pradesh or Karnataka, is nearly 1000X lower, resulting in a much lower crime rate. "
         
 
         
@@ -232,7 +232,7 @@ elif selected2 == 'CHARTS':
             col1.plotly_chart(line2)
             with col2:
                 with st.expander(label="Explaination", expanded = True):
-                    st.write("* From 2011 - 2021 the crime rates have gradually gone up, In 2011 the total crime against Females were 228k and by the end of 2021 the cases have rose up to 428k, That is almost double the cases since 2011\
+                    st.write("* From 2011 - 2021 the crime rates have gradually gone up, In 2011 the total crimes against Females were 228k and by the end of 2021 the cases have rose up to 428k, That is almost double the cases since 2011\
                     \n * We have something interesting to see here, have a look at the year 2020, the cases here have dorpped 8.5% compared to the past year, and this kinda drop has not been witnessed elsewhere in this chart, the reason behind this drastic drop was because of the Tragic COVID-19 Pandemic, Lockdown had caused cases to drop, though the drop in just particular type of crimes are unseen, implying that all of the types of crime were decreased somewhat equally (Check out the Reasons page for better insight) \n * Well, soon after the Lockdown ended the cases have seem to be skyrocketed.")
             col3, col4 = st.columns([5,2])   
             col3.plotly_chart(bar_desc)
