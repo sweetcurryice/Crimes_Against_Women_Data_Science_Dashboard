@@ -37,17 +37,20 @@ To run this project on your local machine, follow these steps:
 ## Data Analysis
 
 1.  **Exploratory Data Analysis (EDA):**
-    - **Data Selection:** You allow users to choose between viewing data for individual states or the entire dataset. This interactive feature can help users focus on specific aspects of the data.
+    - **Data Selection:** Allowing users to choose between viewing data for individual states or the entire dataset. This interactive feature can help users focus on specific aspects of the data.
     - **Data Range Selection:** Users can select a range of years for training the linear regression model. This interactive feature provides flexibility for exploring the impact of different timeframes on model performance.
     - **Visualization:** Created multiple visualizations using charts such as bar, line, sunburst, choropleth, pie, and also integrated scatterplot with linear regression trend lines to visualize the crime rate over time .
 <br>
-2. **Modeling:**
+
+2.  **Modeling**:
+
     - **Linear Regression:** I have used the LinearRegression model from scikit-learn to perform linear regression. This model aims to establish a linear relationship between the year (independent variable) and the total crimes against women (dependent variable).
 
     - **Custom Year Selection:** Users can select a specific range of years for training the model. This approach allows for personalized analysis, as users can focus on different timeframes based on their interests.
 
     - **Prediction:** predictions for future years are made based on the trained model. These predictions provide insights into the expected crime rates for the selected timeframe.
 <br>
+
 3. **Results:**
 
     - **Interactive Data Exploration:** Users can interactively explore the data by selecting individual states, choosing a training year range, and visualizing trends. This interactivity enhances user engagement and allows for a more in-depth analysis.
@@ -64,14 +67,16 @@ To run this project on your local machine, follow these steps:
     
     - Yes, and I found out that in the year 2020, the cases had dropped by **8.5%** compared to 2019, and this kinda drop has not been witnessed elsewhere in this data, the reason behind this drastic drop was because of the Tragic **COVID-19** Pandemic, Lockdown had caused cases to drop, though the drop in just a particular type of crime is unseen, implying that all of the types of crime were decreased somewhat equally.
 <br>
+
 2. What would the total cases in 2024, 2025, 2026 be?
-    
+
     - The prediction for future year cases were done using Linear regression model, and they are as follows:
-        
+
         - cases in **2024** = **478,622.6**
         - cases in **2025** = **496,153.5**
         - cases in **2026** = **513,684.5**
 <br>
+
 3. What are the Highest and Lowest crime types, and how much do they deffer from each other?
 
     - The Highest crime type in these past 10 yrs is ***Domestic Violence***, accounting upto **1.25 Million cases**
