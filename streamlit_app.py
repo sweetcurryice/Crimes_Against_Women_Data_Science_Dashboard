@@ -26,42 +26,49 @@ selected2 = option_menu(None, ["HOME", "CHARTS", "REASONS", "CHOROPLETH", "PREDI
     menu_icon="cast", default_index=0, orientation="horizontal",
     styles={
         "container": \
-            {"padding": "0vw!important",
+            {"padding": "0.3rem 0.5rem",
              "background-color": "#dee1e3",
              "align-items": "center",
              "justify-content": "center",
              "height": "auto",
-             "width" : "100vw",
-             "border-radius":"1vw",
-             "border":"0.2vw solid #e1e4e6"},\
+             "width" : "100%",
+             "max-width": "100%",
+             "border-radius":"1rem",
+             "border":"2px solid #e1e4e6",
+             "flex-wrap":"wrap",
+             "gap":"0.5rem",
+             "row-gap":"0.5rem"},\
             
         "icon": \
             {"color": "#8c8c8c",
-             "font-size": "1.3vw"},\
+             "font-size": "clamp(1rem, 1.3vw, 1.3rem)"},\
              
         "nav-link": \
             {"display" : "flex",
-             "font-size": "1.3vw",
+             "font-size": "clamp(0.95rem, 1.2vw, 1.2rem)",
              "text-align": "center",
              "align-items": "center",
              "justify-contents": "center",
              "--hover-color": "#282829",
-             "width":"15vw",
-             "height": "2.5em",
-             "margin-right" : "2em",
-             "margin-left" : "1em",
+             "width":"auto",
+             "min-width":"fit-content",
+             "height": "auto",
+             "padding": "0.45rem 1.25rem",
+             "margin": "0.3rem",
              "color":"#818182",
              "box-shadow": "8px 4px 8px #777778, -8px -6px 12px #ffffff ",
              #"box-shadow": " 0 0 30px #595959", 
              #"box-shadow": " 20px 20px 50px #00d2c6, -30px -30px 60px #5e99ff"(only in dark theme this looks good)
-             "border-radius":"1vw",
+             "border-radius":"0.9rem",
              "margin-bottom": "0",
              "margin-top": "0",
-             "font-weight":"650"},\
+             "font-weight":"650",
+             "flex":"1 1 140px",
+             "max-width":"100%"},\
             
         "nav-link-selected": \
             {"background-color": "#e1e4e6",
-             "font-size" : "1.3vw",
+             "font-size" : "clamp(0.95rem, 1.2vw, 1.2rem)",
              "font-weight":"600",
              "box-shadow": "2px 2px 5px #777778 inset, -3px -3px 5px #ffffff inset, 12px 12px 16px #777778, -8px -8px 12px #ffffff ",
              "color":"#585859",
