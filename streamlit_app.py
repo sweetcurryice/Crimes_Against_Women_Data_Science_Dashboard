@@ -292,7 +292,7 @@ elif selected2 == "CHOROPLETH" :
         filter_df, 
         locations= 'id', 
         geojson= indian_states,
-        title = selected_year.astype(str),
+        title = f"Year {selected_year}",
         color = 'Total Crimes Against Women', 
         scope = "asia",
         hover_name = filter_df["STATES"],
